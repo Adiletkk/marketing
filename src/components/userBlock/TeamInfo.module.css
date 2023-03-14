@@ -1,0 +1,139 @@
+.main {
+	background-color: #161C24;
+	width: 100%;
+	height: 752px;
+	display: flex;
+}
+
+.subTitle {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	opacity: 0.48;
+}
+
+.title {
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 64px;
+	color: #FFFFFF;
+}
+
+.text {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+
+.cardImg {
+	width: 270px;
+	height: 360px;
+}
+
+.imgBurder {
+	border-radius: 15px;
+}
+
+.cardName {
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+
+.cardProff {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 24px;
+	color: #919EAB;
+}
+
+.btnColor {
+	width: 40px;
+	height: 40px;
+
+	margin-right: 10px;
+	background-color: #161C24;
+	border: 1px solid rgba(250, 84, 28, 0.24);
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+:hover.btnColor {
+	background-color: #252e3a;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 80px;
+	width: 368px;
+	height: 432px;
+	margin-top: 145px;
+	margin-left: 160px;
+}
+
+.card {
+	display: flex;
+	width: 70%;
+	justify-content: space-around;
+	align-items: center;
+	margin-left: 122px;
+	gap: 32px;
+}
+
+@media screen and (max-width: 900px) {
+	.main {
+		flex-direction: column;
+		height: 1212px;
+	}
+
+	.card {
+		overflow: scroll;
+		text-align: center;
+	}
+
+	.info {
+		align-items: center;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 80px;
+		align-items: center;
+		height: fit-content;
+	}
+
+	.title {
+		color: #FA541C;
+		font-weight: 700;
+		font-size: 32px;
+		line-height: 42px;
+	}
+
+	.infoItem {
+		text-align: center;
+	}
+
+	.infoBtn {
+		display: none;
+	}
+
+	.cardImg {
+		width: 335px;
+		height: 446px;
+	}
+}
