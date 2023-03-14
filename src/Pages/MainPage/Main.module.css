@@ -25,3 +25,8 @@
     height: 50px;
     align-items: center;
 }
+.footer{ 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

@@ -4,6 +4,7 @@ import image from '../../foto/image.png'
 import play from '../../foto/#.png'
 
 
+
 function Main() {
   return (
     <div className={css.wrapper}>
@@ -20,6 +21,7 @@ function Main() {
         </div>
         <div className={css.image}>
         <img src={image} alt="" />
+       
         </div>
     </div>
   )
