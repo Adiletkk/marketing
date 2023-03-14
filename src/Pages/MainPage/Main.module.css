@@ -1,0 +1,27 @@
+.wrapper{ 
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.long{ 
+    font-size: 64px;
+}
+.smal{ 
+    margin-top: 30px;
+    align-items: center;
+}
+.endl{ 
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.btn{ 
+    width: 30%;
+    background: #FA541C;
+    border-radius: 8px;
+    color: white;
+    height: 50px;
+    align-items: center;
+}

@@ -1,0 +1,32 @@
+.wrapper{ 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+.left{ 
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+    color: #637381;
+
+}
+.right{ 
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+}
+#blue{ 
+    background: #212B36;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-top: -1px;
+font-size: 20px;
+    
+}
