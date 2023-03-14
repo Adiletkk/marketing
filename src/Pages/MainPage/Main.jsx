@@ -9,7 +9,7 @@ function Main() {
   return (
     <div className={css.wrapper}>
         <div className={css.text}>
-        <div>Digital Marketing</div>
+        <div className={css.colortext}>Digital Marketing</div>
         <div className={css.long}>Boosts Your <br/>Website Traffic</div>
         <div className={css.smal}>Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus 
         <br/> ipsum laoreet sapien, quis venenatis ante odio sit amet eros. </div>

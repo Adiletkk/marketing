@@ -98,7 +98,7 @@ input:checked[type="checkbox"]::before{
 .price_item {
 	display: flex;
 	flex-direction: column;
-	align-items: start;
+	align-items: flex-start;
 	width: 342px;
 	height: 524px;
 	padding: 64px 37px;

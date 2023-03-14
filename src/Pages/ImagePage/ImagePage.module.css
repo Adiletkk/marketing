@@ -2,17 +2,22 @@
     display: flex;
     margin-top: 100px;
     flex-direction: column;
-
+    
 
 }
-
-
 .footer{ 
     display: flex;
-    width: 80%;
+    width: 100%;
     justify-content: space-around;
-}
+} 
 .center{ 
-    width: 70%;
+    width: 100%;
+
     margin-top: 80px;
+   
+}
+.center>img{ 
+    width: 100% !important;
+
+ 
 }

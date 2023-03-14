@@ -1,14 +1,17 @@
 import React from 'react'
+import Block from '../../components/Block/Block'
 import Header from '../HeaderPage/Header'
 import ImagePage from '../ImagePage/ImagePage'
 import Main from '../MainPage/Main'
+import css from './HomePage.module.css'
 
 function HomePage() {
   return (
-    <div>
+    <div className={css.wrapper}>
         <Header/>
         <Main/>
         <ImagePage/>
+        <Block/>
     </div>
   )
 }
