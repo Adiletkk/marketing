@@ -5,6 +5,7 @@ import StRocket from "../images/stRocket.svg";
 import PrRocket from "../images/prRocket.svg";
 
 const PriceInfo = () => {
+
   return (
     <div className={styles.price_page}>
       <section className={styles.head}>
@@ -35,7 +36,6 @@ const PriceInfo = () => {
               <img src={Plane} alt="" />
             </div>
           </div>
-
           <p className={styles.price_text}>
             Proin viverra, ligula sit amet ultrices semper, ligula arcu
             tristique sapien

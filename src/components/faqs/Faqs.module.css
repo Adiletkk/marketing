@@ -1,0 +1,13 @@
+.main {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	height: 65vh;
+}
