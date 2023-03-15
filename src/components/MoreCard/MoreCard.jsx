@@ -14,7 +14,7 @@ function MoreCard() {
             
             </div>
             <div className={css.bottom}>
-
+                <div>asds</div>
             </div>
         </div>
     </div>

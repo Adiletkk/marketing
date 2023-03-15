@@ -31,6 +31,7 @@
   padding-top: 70px;
   background: #ffffff;
   height: 119px;
+  box-shadow: -24px 24px 72px -8px rgba(145, 158, 171, 0.24);
 }
 .btn{ 
     margin-top: 30px;
