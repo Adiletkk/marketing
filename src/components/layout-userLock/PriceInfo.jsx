@@ -11,13 +11,13 @@ const PriceInfo = () => {
 			<section className={styles.head}>
 				<div>
 					<p className={styles.subTitle}>PRICING</p>
-					<h1>Check Our Pricing</h1>
-					<p className={styles.title_text}>Choose the perfect plan for your needs.
+					<h1 className={styles.title}>Check Our Pricing</h1>
+					<p className={styles.title_text}>Choose the perfect plan for your needs. <br />
 						Always flexible to grow</p>
 				</div>
 				<div className={styles.check}>
-					<p>MONTHLY <input type="checkbox"  />
-						YEARLY (save 10%)</p>
+					<div className={styles.check_item}>MONTHLY <input className={styles.check_inp} type="checkbox"/>
+						YEARLY (save 10%)</div>
 				</div>
 			</section>
 			<section className={styles.price_list}>

@@ -1,0 +1,74 @@
+.main {
+	height: 100vh;
+	width: 100%;
+	background: #F9FAFB;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.main_content {
+	height: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.subTitle {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #919EAB;
+}
+
+.title {
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 64px;
+	text-align: center;
+	color: #212B36;
+}
+
+.text {
+	width: 540px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 36px;
+	color: #212B36;
+}
+
+.name {
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 28px;
+	color: #212B36;
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.proff {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 24px;
+	color: #637381;
+}
+
+.info {
+	display: flex;
+	align-items: center;
+	width: 60%;
+	justify-content: space-evenly;
+}

@@ -5,82 +5,92 @@
 	align-items: flex-start;
 	padding: 120px 74px;
 	width: 100%;
-	height: 1108px;
+	height: 130vh;
 	background: #FFFFFF;
-	position: absolute;
 }
 
-.head{
-
+.head {
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 }
-.subTitle{
+
+.subTitle {
 	font-family: 'Poppins', sans-serif;
-		font-style: normal;
-		font-weight: 600;
-		font-size: 12px;
-		line-height: 20px;
-		text-transform: uppercase;
-		color: #919EAB;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #919EAB;
 }
 
-.title_text{
+.title_text {
 	font-family: 'Poppins', sans-serif;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 28px;
-		color: #637381;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #637381;
 }
-.check{
+
+.check {
 	font-family: 'Poppins', sans-serif;
-		font-style: normal;
-		font-weight: 600;
-		font-size: 12px;
-		line-height: 20px;
-		text-transform: uppercase;
-		color: #212B36;
-}
-.gui_switch {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #212B36;
 	display: flex;
-	align-items: center;
-	gap: 2ch;
-	justify-content: space-between;
+	align-items: end;
 }
-input[type="checkbox"]
-{
+.check_item{
+	width: 300px;
+	height: 50px;
+}
+.check_inp{
+	margin-top: 10px;
+}
+input[type="checkbox"] {
 	position: relative;
 	width: 33px;
-		height: 20px;
+	height: 20px;
 	appearance: none;
 	background-color: #FA541C;
 	border-radius: 20px;
 	outline: none;
 	transition: .5;
+	cursor: pointer;
+	bottom: -4px;
+		margin: 0 10px;
+		padding-top: px;
 }
 
-input:checked[type="checkbox"]
-{
+input:checked[type="checkbox"] {
 	background-color: #b1340b;
 	transition: .5;
+	cursor:pointer;
 }
 
-input[type="checkbox"]:before{
+input[type="checkbox"]:before {
 	content: '';
 	position: absolute;
-	width: 30px;
-	height: 30px;
+	width: 12px;
+	height: 12px;
 	border-radius: 50%;
 	background-color: #FFFFFF;
 	transform: scale(1.1);
 	transition: .5s;
-	top: 5px;
-	left: 5px;
+	top: 4px;
+	left: 3px;
+	cursor: pointer;
 }
-input:checked[type="checkbox"]::before{
-	left: 40px;
+
+input:checked[type="checkbox"]::before {
+	left: 17px;
 	transition: .5;
+	cursor: pointer;
 }
 
 
@@ -91,8 +101,11 @@ input:checked[type="checkbox"]::before{
 }
 
 .price_list {
+	height: 100%;
 	display: flex;
 	width: 100%;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .price_item {
@@ -112,7 +125,16 @@ input:checked[type="checkbox"]::before{
 	width: 100%;
 	justify-content: space-between;
 }
-
+.title{
+	font-family: 'Barlow';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 48px;
+		line-height: 64px;
+		color: #212B36;
+		margin-top: 16px;
+		margin-bottom: 24px;
+}
 .price_text {
 	width: 288px;
 	font-family: 'Poppins', sans-serif;
@@ -136,7 +158,8 @@ input:checked[type="checkbox"]::before{
 ul {
 	list-style-image: url("../images/mark.svg");
 }
-li{
+
+li {
 	margin-bottom: 16px;
 }
 
@@ -179,11 +202,6 @@ li{
 	font-weight: 600;
 	font-size: 20px;
 	line-height: 30px;
-	/* identical to box height, or 150% */
-
 	text-align: right;
-
-	/* 11 Text Color/Light/03 Text Disabled */
-
 	color: #919EAB;
 }
