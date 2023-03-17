@@ -18,7 +18,6 @@ function App() {
       <DevCommentsBlock/>
       <Posts/>
       <Form/>
-      <Footer/>
     </div>
   );
 }

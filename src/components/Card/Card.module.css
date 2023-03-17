@@ -10,7 +10,7 @@
 
 .card {
   width: 34%;
-  height: 200px;
+  height: 500px;
   color: #637381;
 }
 
@@ -52,6 +52,11 @@ background: rgba(250, 84, 28, 0.08);
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  text-align: center;
+  padding-top: 70px;
+  background: #ffffff;
+  height: 119px;
+  box-shadow: -24px 24px 72px -8px rgba(145, 158, 171, 0.24);
 }
 
 
