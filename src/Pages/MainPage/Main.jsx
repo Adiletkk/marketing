@@ -16,7 +16,7 @@ function Main() {
         <div className={css.endl}>
         <button className={css.btn}>TryForFree</button>
         <img src={play} alt="" />
-        <div className={css.smal}> See Our Work</div>
+        <div className={css.small}> See Our Work</div>
         </div>
         </div>
         <div className={css.image}>

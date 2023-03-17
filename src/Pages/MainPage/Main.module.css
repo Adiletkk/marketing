@@ -6,16 +6,15 @@
 .long{ 
     font-size: 64px;
 }
-.smal{ 
-    margin-top: 30px;
-    align-items: center;
-}
+
 .endl{ 
-    margin-top: 100px;
+    margin-top: 200px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    align-items: center;
+    width: 99%;
+    color: black;
+    font-size: 15px;
+    font-weight: 550;
 }
 .btn{ 
     width: 30%;

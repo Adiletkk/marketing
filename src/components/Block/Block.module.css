@@ -11,6 +11,7 @@
     display: flex; 
     text-align: end; 
     align-items:flex-end ; 
+    align-items: flex=end; 
     flex-direction: column; 
   } 
   .left b { 

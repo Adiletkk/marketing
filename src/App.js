@@ -5,8 +5,8 @@ import HomePage from './Pages/HomePage/HomePage';
 function App() {
   return (
     <div className="container">
-      <HomePage/>
-   <Footer/>
+      <HomePage />
+      <Footer />
     </div>
   );
 }

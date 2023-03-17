@@ -13,22 +13,19 @@ import ImagePage from '../ImagePage/ImagePage'
 import Main from '../MainPage/Main'
 import css from './HomePage.module.css'
 
+
+
+
 function HomePage() {
   return (
     <div className={css.wrapper}>
-      <Header />
-      <Main />
-      <ImagePage />
-      <Block />
-      <Card />
-      <BankCard />
-      <MoreCard />
-
-      <TeamInfo />
-      <PriceInfo />
-      <Faqs />
-      <DevCommentsBlock />
-      <Posts />
+        <Header/>
+        <Main/>
+        <ImagePage/>
+        <Block/>
+        <Card/>
+        <BankCard/>
+        <MoreCard/>
     </div>
   )
 }
