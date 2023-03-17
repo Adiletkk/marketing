@@ -1,13 +1,26 @@
-import React from "react";
+import React, { useRef } from "react";
 import styles from './TeamInfo.module.css'
 import Pena from '../images/pena.svg'
 import Marvin from '../images/marvin.svg'
 import Ralph from '../images/ralpin.svg'
 import Right from '../images/right.svg'
 import Left from '../images/left.svg'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 
 const TeamInfo = () => {
+	const arrowRef = useRef(null)
+	const settings = {
+		dots: false,
+		infinite: true,
+		speed: 500,
+		slidesToShow: 2,
+		slidesToScroll: 1,
+		arrows: false,        
+	}
 	return (
 		<div className={styles.main}>
 			<div className={styles.info}>
@@ -19,10 +32,14 @@ const TeamInfo = () => {
 				</div>
 
 				<div className={styles.infoBtn}>
-					<button className={styles.btnColor} >
+					<button
+					onClick={()=> arrowRef.current.slickPrev()}
+					className={styles.btnColor} >
 						<img src={Left} alt="" />
 					</button>
-					<button className={styles.btnColor} >
+					<button 
+					onClick={()=> arrowRef.current.slickNext()}
+					className={styles.btnColor} >
 						<img src={Right} alt="" />
 					</button>
 				</div>
@@ -30,7 +47,8 @@ const TeamInfo = () => {
 			</div>
 
 			<div className={styles.card}>
-				<div>
+				<Slider ref={arrowRef} {...settings}>
+				<div className={styles.card_sample}>
 					<div className={styles.cardImg}>
 						<img className={styles.imgBurder} src={Pena} alt="" />
 
@@ -56,6 +74,8 @@ const TeamInfo = () => {
 					<p className={styles.cardName}>Eleanor Pena</p>
 					<p className={styles.cardProff}>UI Designer</p>
 				</div>
+</Slider>
+
 			</div>
 
 		</div>

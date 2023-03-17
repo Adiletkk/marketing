@@ -5,8 +5,9 @@
 	align-items: flex-start;
 	padding: 120px 74px;
 	width: 100%;
-	height: 130vh;
+	height: 135vh;
 	background: #FFFFFF;
+	gap: 15px;
 }
 
 .head {
@@ -113,7 +114,7 @@ input:checked[type="checkbox"]::before {
 	flex-direction: column;
 	align-items: flex-start;
 	width: 342px;
-	height: 524px;
+	height: fit-content;
 	padding: 64px 37px;
 	background: #FFFFFF;
 	box-shadow: -4px 4px 24px rgba(145, 158, 171, 0.08);
@@ -155,15 +156,17 @@ input:checked[type="checkbox"]::before {
 	color: #FA541C;
 }
 
-ul {
+.price_item ul {
 	list-style-image: url("../images/mark.svg");
 }
 
 li {
 	margin-bottom: 16px;
+	margin-left: 25px;
 }
 
 .price_btn {
+	margin-top: 40px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
