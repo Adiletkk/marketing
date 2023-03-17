@@ -26,6 +26,12 @@ function HomePage() {
         <Card/>
         <BankCard/>
         <MoreCard/>
+
+      <TeamInfo />
+      <PriceInfo />
+      <Faqs />
+      <DevCommentsBlock />
+      <Posts />
     </div>
   )
 }
