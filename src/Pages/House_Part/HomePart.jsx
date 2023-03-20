@@ -4,6 +4,7 @@ import TeamInfo from '../../components/userBlock/TeamInfo'
 import DevCommentsBlock from '../../components/devComemmentsBLock/DevCommentsBlock'
 import Faqs from '../../components/faqs/Faqs'
 import PriceInfo from '../../components/layout-userLock/PriceInfo'
+import Form from '../../components/form/Form'
 
 const HomePart = () => {
 	return (
@@ -13,6 +14,7 @@ const HomePart = () => {
 			<Faqs />
 			<DevCommentsBlock />
 			<Posts />
+			<Form/>
 		</div>
 	)
 }
