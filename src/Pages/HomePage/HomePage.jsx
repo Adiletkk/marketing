@@ -1,9 +1,11 @@
 import React from 'react'
 import BankCard from '../../components/BankCard/BankCard'
+import Benefitsachieved from '../../components/Benefitsachieved/Benefitsachieved'
 import Block from '../../components/Block/Block'
 import Card from '../../components/Card/Card'
 import DevCommentsBlock from '../../components/devComemmentsBLock/DevCommentsBlock'
 import Faqs from '../../components/faqs/Faqs'
+import Howitworks from '../../components/Howitworks/Howitworks'
 import PriceInfo from '../../components/layout-userLock/PriceInfo'
 import MoreCard from '../../components/MoreCard/MoreCard'
 import Posts from '../../components/posts/Posts'
@@ -31,6 +33,8 @@ function HomePage() {
       <Faqs/>
       <DevCommentsBlock/>
       <Posts/>
+      <Howitworks/>
+      <Benefitsachieved/>
     </div>
   )
 }

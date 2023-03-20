@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  width: 20%;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+}
+.card .human {
+  width: 75%;
+  height: 360px;
+}
+.social {
+  position: absolute;
+  content: "";
+  margin-left: 47px;
+  background: rgba(63, 62, 62, 0.6  );
+  margin-top: -106px;
+  height: 100px;
+  width: 285px;
+  opacity: 0; 
+   transition: all 4s ease; 
+   border-radius: 20px;
+   
+}
+.social img { 
+  cursor: pointer;
+  justify-content: space-between;
+  margin: 40px 10px 30px 10px;
+}
+
+.card .social:hover {
+  opacity: 1;
+}
