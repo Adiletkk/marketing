@@ -3,13 +3,16 @@ import BankCard from '../../components/BankCard/BankCard'
 import Benefitsachieved from '../../components/Benefitsachieved/Benefitsachieved'
 import Block from '../../components/Block/Block'
 import Card from '../../components/Card/Card'
+
+
+=======
 import DevCommentsBlock from '../../components/devComemmentsBLock/DevCommentsBlock'
 import Faqs from '../../components/faqs/Faqs'
 import Howitworks from '../../components/Howitworks/Howitworks'
 import PriceInfo from '../../components/layout-userLock/PriceInfo'
+
 import MoreCard from '../../components/MoreCard/MoreCard'
-import Posts from '../../components/posts/Posts'
-import TeamInfo from '../../components/userBlock/TeamInfo'
+
 import Header from '../HeaderPage/Header'
 import ImagePage from '../ImagePage/ImagePage'
 import Main from '../MainPage/Main'
@@ -28,6 +31,7 @@ function HomePage() {
         <Card/>
         <BankCard/>
         <MoreCard/>
+
         <TeamInfo/>
       <PriceInfo/>
       <Faqs/>
@@ -35,6 +39,7 @@ function HomePage() {
       <Posts/>
       <Howitworks/>
       <Benefitsachieved/>
+
     </div>
   )
 }

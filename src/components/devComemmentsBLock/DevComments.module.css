@@ -80,6 +80,5 @@
 }
 
 .center{
-	border: 1px solid rgb(228, 28, 28);
-	border-radius: 20px;
+	width: 100%;
 }

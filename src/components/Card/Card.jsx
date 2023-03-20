@@ -13,38 +13,38 @@ function Card() {
         <p>OUR SERViCES</p>
         <h1>We Provide</h1>
         <p>Nunc nonummy metus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.</p>
-        </div>
-        <div className={css.slider}>
+      </div>
+      <div className={css.slider}>
 
-            <div className={css.slidecard1}>
-              <img src={card} alt="" />
+        <div className={css.slidecard1}>
+          <img src={card} alt="" />
           <h1 className={css.title}>SEO</h1>
-                <p className={css.text}>Nunc nonummy metus. Donec elit libero</p>
-                <button className={css.btn}> 🠖</button>
-             </div>
-
-             <div className={css.slidecard1}>
-              <img src={card2} alt="" />
-          <h1 className={css.title}>Email Marketing</h1>
-                <p className={css.text}>Nunc nonummy metus. Donec elit libero</p>
-                <button className={css.btn}> 🠖</button>
-             </div>
-
-             <div className={css.slidecard1}>
-              <img src={card3} alt="" />
-              <h1 className={css.title}>Search Engine <br /> Oprimization</h1>
-                <p className={css.text}>Nunc nonummy metus. Donec elit libero</p>
-                <button className={css.btn}> 🠖</button>
-             </div>
-
-             <div className={css.slidecard1}>
-              <img src={card4} alt="" />
-          <h1 className={css.title}> Social Marketing</h1>
-                <p className={css.text}>Nunc nonummy metus. Donec elit libero</p>
-                <button className={css.btn}>🠖</button>
-             </div>
-
+          <p className={css.text}>Nunc nonummy metus. Donec elit libero</p>
+          <button className={css.btn}> 🠖</button>
         </div>
+
+        <div className={css.slidecard1}>
+          <img src={card2} alt="" />
+          <h1 className={css.title}>Email Marketing</h1>
+          <p className={css.text}>Nunc nonummy metus. Donec elit libero</p>
+          <button className={css.btn}> 🠖</button>
+        </div>
+
+        <div className={css.slidecard1}>
+          <img src={card3} alt="" />
+          <h1 className={css.title}>Search Engine <br /> Oprimization</h1>
+          <p className={css.text}>Nunc nonummy metus. Donec elit libero</p>
+          <button className={css.btn}> 🠖</button>
+        </div>
+
+        <div className={css.slidecard1}>
+          <img src={card4} alt="" />
+          <h1 className={css.title}> Social Marketing</h1>
+          <p className={css.text}>Nunc nonummy metus. Donec elit libero</p>
+          <button className={css.btn}>🠖</button>
+        </div>
+
+      </div>
     </div>
   )
 }
