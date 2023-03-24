@@ -1,0 +1,138 @@
+.content {
+	width: 100%;
+	padding: 0px 144px;
+	height: 290vh;
+}
+
+.content_head {
+	width: 420px;
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+
+}
+
+.content_head h1 {
+	font-family: 'Barlow', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 64px;
+	color: #212B36;
+	margin-bottom: 18px;
+}
+
+.content_head p {
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 28px;
+	color: #637381;
+}
+
+.navbar {
+	width: 90%;
+	display: flex;
+	gap: 30px;
+	height: 15vh;
+	align-items: center;
+	color: #637381;
+}
+.navbar p:hover{
+color: #212B36;
+border-bottom: #FA541C solid 2px;
+}
+
+.main {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	column-gap: 30px;
+	row-gap: 40px;
+}
+
+.card {
+	width: 335px;
+	height: 430px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.card_img {
+	width: 335px;
+	height: 345px;
+
+}
+
+.card_img img {
+	border-radius: 10px;
+	width: 335px;
+	height: 335px;
+	object-fit: cover;
+}
+
+.card_title {
+	padding-left: 10px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 20px;
+	text-transform: uppercase;
+	color: #919EAB;
+}
+
+.card_info {
+	padding-left: 10px;
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 30px;
+	color: #212B36;
+}
+
+.pagination {
+	display: flex;
+	height: 180px;
+	width: 100%;
+	align-items: flex-end;
+	justify-content: center;
+	font-family: 'Poppins';
+	cursor: pointer;
+	list-style: none;
+}
+
+.page_num {
+	width: 30px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	display: flex;
+	align-items: flex-end;
+	justify-content:center;
+	color: #212B36;
+
+}
+
+.page_num:hover {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	border-radius: 50%;
+	background-color: rgb(255, 191, 161);
+}
+
+.pagination .active {
+	border-radius: 50%;
+	color: rgb(241, 126, 73);
+	background-color: rgb(255, 191, 161);
+	width: 30px;
+	height: 30px;
+	line-height: 10px;
+	text-align: center;
+}

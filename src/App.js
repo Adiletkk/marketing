@@ -1,28 +1,19 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-
-import Footer from './components/footer/Footer';
-import OfflineSeo from './components/offlineSeo/OfflineSeo';
-import HomePage from './Pages/HomePage/HomePage';
-import HomePart from './Pages/House_Part/HomePart';
+import FirstPage from './Pages/FirstPage/FirstPage';
 import SecondPage from './Pages/secondPage/SecondPage';
-
-import HomePage from './Pages/HomePage/HomePage';
+import ThirdPage from './Pages/ThirdPage/ThirdPage';
 import Showtest from './propselem/Showtest/Showtest';
+
 
 function App() {
   return (
-    <div className="container">
-
-      <HomePage />
-      <HomePart />
-      <Footer />
-      <OfflineSeo />
-      <SecondPage />
-
-      <HomePage/>\
-      <Showtest/>
-
-    </div>
+      <Routes>
+        <Route path='/' element={<FirstPage/>} />
+        <Route path='/secondPage' element={<SecondPage />} />
+        <Route path='/showtest' element={<Showtest />} />
+        <Route path='/thirdPage' element={<ThirdPage/>}/>
+      </Routes>
   );
 }
 
