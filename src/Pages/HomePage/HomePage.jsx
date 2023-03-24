@@ -1,29 +1,19 @@
 import React from 'react'
 import BankCard from '../../components/BankCard/BankCard'
-import Benefitsachieved from '../../components/Benefitsachieved/Benefitsachieved'
 import Block from '../../components/Block/Block'
 import Card from '../../components/Card/Card'
-
-
-=======
-import DevCommentsBlock from '../../components/devComemmentsBLock/DevCommentsBlock'
-import Faqs from '../../components/faqs/Faqs'
-import Howitworks from '../../components/Howitworks/Howitworks'
-import PriceInfo from '../../components/layout-userLock/PriceInfo'
-
 import MoreCard from '../../components/MoreCard/MoreCard'
 
 import Header from '../HeaderPage/Header'
 import ImagePage from '../ImagePage/ImagePage'
 import Main from '../MainPage/Main'
-import css from './HomePage.module.css'
 
 
 
 
 function HomePage() {
   return (
-    <div className={css.wrapper}>
+    <div >
         <Header/>
         <Main/>
         <ImagePage/>
@@ -31,15 +21,6 @@ function HomePage() {
         <Card/>
         <BankCard/>
         <MoreCard/>
-
-        <TeamInfo/>
-      <PriceInfo/>
-      <Faqs/>
-      <DevCommentsBlock/>
-      <Posts/>
-      <Howitworks/>
-      <Benefitsachieved/>
-
     </div>
   )
 }

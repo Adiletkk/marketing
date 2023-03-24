@@ -17,69 +17,94 @@ import image7 from '../../foto/moreimage7.png'
 
 function MoreCard() {
   return (
-    <div className={css.wrapper}> 
-    <p>Our Work</p> 
-    <h1>Case Studies</h1> 
-    <div className={css.main}> 
-      <div className={css.left}> 
-        <img src={image2} alt="" /> 
-        <div className={css.text}> 
-          <p>marketing</p> 
-          <h1>General Electric</h1> 
-        </div> 
-      </div> 
-      <div className={css.center}> 
-        <div className={css.up}> 
-          <img src={image1} alt="" /> 
-          <div className={css.info}> 
-            <b>branding</b> 
-            <h1>Bank of America</h1> 
-            <p> 
-              Quisque id odio. Nunc egestas, augue at pellentesque laoreet, 
-              felis eros vehicul 
-            </p> 
-            <button>Learn more →</button> 
-          </div> 
-          <div className={css.centerRight}> 
-            <img src={image3} alt="" /> 
-            <div className={css.text2}> 
-              <p>SEO</p> 
-              <h1>Louis Vuitton</h1> 
-            </div> 
-          </div> 
-        </div> 
-        <div className={css.bottomCenter}> 
-          <div className={css.centerLeft}> 
-            <img src={image7} alt="" /> 
-            <div className={css.text3}> 
-              <p>MARKETING</p> 
-              <h1>Gillette</h1> 
-            </div> 
-          </div> 
-          <div className={css.bottom}> 
-            <img src={image6} alt="" /> 
-            <div className={css.infotext4}> 
-              <b>SOCIAL</b> 
-              <h1>Louis Vuitton</h1> 
-              <p> 
-                Quisque id odio. Nunc egestas, augue at pellentesque laoreet, 
-                felis eros vehicul 
-              </p> 
-              <button>Learn more →</button> 
-            </div> 
-          </div> 
-        </div> 
-      </div> 
-      <div className={css.right}> 
-        <img src={image4} alt="" /> 
-        <div className={css.text4}> 
-          <p>web</p> 
-          <h1>Gillette</h1> 
-        </div> 
-      </div> 
-    </div> 
-    <button className={css.viewbtn}>View All →</button> 
-  </div> 
+    <div className={css.main}>
+
+      <section className={css.main_left}>
+        <div className={css.card_left}>
+          <p>MARKITING</p>
+          <p>General Electric</p>
+        </div>
+      </section>
+
+
+      <section section className={css.main_mid}>
+
+        <div className={css.mid_top}>
+          <div className={css.mid_item}>
+            <div className={css.mid_img}>
+
+            </div>
+            <div className={css.mid_info}>
+              <p className={css.mid_title}>
+                BRANDING
+              </p>
+              <h4 className={css.mid_subTitle}>
+                Bank of America
+              </h4>
+              <p className={css.mid_text}>
+                Quisque id odio. Nunc
+                egestas, augue at pellentesque laoreet, felis eros vehicul
+              </p>
+              <button className={css.mid_btn}>
+                Learn more &#8594;
+              </button>
+            </div>
+          </div>
+          <div className={css.mid_card}>
+            <p className={css.card_sutTitle}>
+              SEO
+            </p>
+            <p className={css.card_title}>
+              Louis Vuitton
+            </p>
+          </div>
+        </div>
+
+
+        <div className={css.mid_bottom}>
+          <div className={css.mid_card}>
+            <p className={css.card_sutTitle}>
+              MARKITING
+            </p>
+            <p className={css.card_title}>
+              Gillette
+            </p>
+          </div>
+          <div className={css.mid_item}>
+            <div className={css.mid_imgb}>
+
+            </div>
+            <div className={css.mid_info}>
+              <p className={css.mid_title}>
+                SOCIAL
+              </p>
+              <h4 className={css.mid_subTitle}>
+                Louis Vuitton
+              </h4>
+              <p className={css.mid_text}>
+                Quisque id odio. Nunc
+                egestas, augue at pellentesque laoreet, felis eros vehicul
+              </p>
+              <button className={css.mid_btn}>
+                Learn more &#8594;
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+      </section >
+
+      <section className={css.main_right}>
+        <div className={css.card_right}>
+          <p>MARKITING</p>
+          <p>General Electric</p>
+        </div>
+
+      </section>
+
+
+    </div>
   );
 }
 

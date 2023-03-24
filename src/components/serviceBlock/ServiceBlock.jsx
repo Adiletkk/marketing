@@ -6,8 +6,8 @@ import { servicesIncludes } from '../../Contstants/ServicesIncludes.js'
 const ServiceBlock = () => {
 	return (
 		<div className={styles.main}>
-			<h1>Service Include</h1>
-			<p>Nunc nonummy metus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.</p>
+			<h1 className={styles.main_title}>Service Include</h1>
+			<p className={styles.main_info}>Nunc nonummy metus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.</p>
 			<div className={styles.card_content}>
 			{
 				servicesIncludes.map((item, i) => 

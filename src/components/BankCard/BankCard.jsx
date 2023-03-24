@@ -11,7 +11,7 @@ function BankCard() {
     <div className={css.wrapper}>
       <div className={css.card}>
         <p>Work Flow</p>
-        <h1>Work Flow</h1>
+        <h1 className={css.card_title}>Work Flow</h1>
         <p>Nunc nonummy metus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis.</p>
         </div>
         <div className={css.bankcard}>
