@@ -13,7 +13,7 @@ import facebookbtn from "../../foto/facebookbtn.png";
 import linkedinbtn from "../../foto/linkedinbtn.png";
 import faceboock from "../../foto/facebook2.png";
 import instagram from "../../foto/instagram2.png";
-import ins from "../../foto/ins.png";
+import inspng from "../../foto/inspng.png";
 import twitter from "../../foto/twitter2.png";
 
 function Marketingblock() {
@@ -150,7 +150,7 @@ function Marketingblock() {
         <div className={css.right_endl}>
           <img src={faceboock} alt="" />
           <img src={instagram} alt="" />
-          <img src={ins} alt="" />
+          <img src={inspng} alt="" />
           <img src={twitter} alt="" />
         </div>
         </div>
