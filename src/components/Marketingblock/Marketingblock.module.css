@@ -163,4 +163,33 @@ height: 100px;
 .footer{ 
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+.right_endl{ 
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  height: 20px;
+  margin-left: -220px;
+  cursor: pointer;
+}
+.right_endl img{ 
+  width: 20px;
+  height: 20px;
+}
+.center_endl { 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+}
+.center_endl p { 
+  color: #637381;
+
+}
+
+.left_endl img{ 
+  width: 50px;
+  height: 50px;
 }

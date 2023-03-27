@@ -1,11 +1,6 @@
 import React from "react";
 import css from "./MoreCard.module.css";
-import image1 from "../../foto/moreimage.png";
-import image2 from '../../foto/moreimage2.png'
-import image3 from '../../foto/moreimage3.png'
-import image4 from '../../foto/moreimage4.png'
-import image6 from '../../foto/moreimage6.png'
-import image7 from '../../foto/moreimage7.png'
+
 
 
 

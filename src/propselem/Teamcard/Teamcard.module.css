@@ -1,9 +1,10 @@
 .wrapper {
   display: flex;
-  width: 20%;
+  width: 100%;
   border: 1px solid black;
   position: relative;
   overflow: hidden;
+  gap: 30px;
 }
 .card .human {
   width: 75%;
