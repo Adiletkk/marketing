@@ -10,8 +10,8 @@ import handcard from "../../foto/handcard.png";
 import humoncard from "../../foto/humancard.png";
 import textcard from "../../foto/textcard.png";
 import likecard from "../../foto/likecard.png";
-// import Showtest from "../../propselem/Showtest/Showtest";
-// import DevCommentsBlock from "../devComemmentsBLock/DevCommentsBlock";
+import Showtest from "../../propselem/Showtest/Showtest";
+import DevCommentsBlock from "../devComemmentsBLock/DevCommentsBlock";
 import logo1 from "../../foto/google.png";
 import logo2 from "../../foto/spotify.png";
 import logo3 from "../../foto/vimeo.png";
@@ -24,7 +24,7 @@ import logo8 from "../../foto/trip.png";
 function Pageseven() {
   return (
     <div className={css.wrapper}>
-      <div className={css.top_header}>
+       <div className={css.top_header}>
         <div className={css.left}>
           <img src={planet} alt="" />
         </div>
@@ -153,41 +153,31 @@ function Pageseven() {
         <p className={css.top_text}>
           Since wire-frame renderings are relatively simple and fast to
           calculate, they are often used in cases
-        </p>
-        {/* <div className={css.slider}> */}
-        {/* <Showtest/> */}
-        {/* </div> */}
-        {/* <div className={css.slider_dev}> */}
-        {/* <DevCommentsBlock/> */}
-        {/* </div> */}
+        </p> 
+      </div>
+
+         <div className={css.slider}>
+        <Showtest/>
+        </div>
+        <div className={css.slider_dev}>
+        <DevCommentsBlock/>
+        </div>
         <div className={css.endl_logo}>
           <h1>Our Clients</h1>
           <div className={css.last_logo}>
-            <div>
+            <div className={css.top_endl_card}>
               <img src={logo1} alt="" />
-            </div>
-            <div>
               <img src={logo2} alt="" />
-            </div>
-            <div>
               <img src={logo3} alt="" />
-            </div>
-            <div>
               <img src={logo4} alt="" />
-            </div>
-            <div>
+          </div>
+
+            <div className={css.bottom_endl_card}>
               <img src={logo5} alt="" />
-            </div>
-            <div>
               <img src={logo6} alt="" />
-            </div>
-            <div>
               <img src={logo7} alt="" />
-            </div>
-            <div>
               <img src={logo8} alt="" />
             </div>
-          </div>
         </div>
       </div>
     </div>

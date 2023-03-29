@@ -14,17 +14,17 @@ import Registration from './components/Registration/Registration';
 function App() {
   return (
     <div className="container">
-      {/* <HomePage/> */}
-      {/* <Showtest/> */}
-      {/* <Projectbrief/> */}
-      {/* <Marketingblock/> */}
-      {/* <Routes> */}
-        {/* <Route path='/' element={<FirstPage/>} /> */}
-        {/* <Route path='/secondPage' element={<SecondPage />} /> */}
-        {/* <Route path='/showtest' element={<Showtest />} /> */}
-        {/* <Route path='/thirdPage' element={<ThirdPage/>}/> */}
-      {/* </Routes> */}
-      {/* <Pageseven/> */}
+      <HomePage/>
+      <Showtest/>
+      <Projectbrief/>
+      <Marketingblock/>
+      <Routes>
+        <Route path='/' element={<FirstPage/>} />
+        <Route path='/secondPage' element={<SecondPage />} />
+        <Route path='/showtest' element={<Showtest />} />
+        <Route path='/thirdPage' element={<ThirdPage/>}/>
+      </Routes>
+      <Pageseven/>
       <Registration/>
       </div>
       

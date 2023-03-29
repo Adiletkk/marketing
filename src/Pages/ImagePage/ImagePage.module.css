@@ -6,6 +6,21 @@
     width: 100%;
     padding: 0px 144px;
 }
+@media (max-width: 800px) {
+    .wrapper{ 
+        display: flex;
+        flex-direction: column;
+        max-width: min-content;
+    }
+   .wrap_img{
+    display: none;
+   }
+   .brand_list{ 
+    flex-direction: column;
+    display: flex;
+   }
+
+}
 
 .brand_list {
     display: flex;
