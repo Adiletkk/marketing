@@ -8,21 +8,37 @@
 .list {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
+	row-gap: 20px;
 	height: 65vh;
+	width: 600px;
 }
-
+.list h1{
+	font-family: 'Barlow';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 48px;
+		line-height: 64px;
+		color: #212B36;
+}
+.list span{
+	font-family: 'Poppins';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 20px;
+		color: #919EAB;
+}
 .modalwindow{
 	font-size: xx-large;
 }
 
-/* Dropdown container */
+
 .dropdown {
 	position: relative;
 	width: 200px;
 }
 
-/* Dropdown toggle button */
+
 .dropdown_toggle {
 	background-color: #fff;
 	border: 1px solid #ccc;
@@ -32,7 +48,7 @@
 	padding: 10px;
 }
 
-/* Dropdown menu */
+
 .dropdown_menu {
 	background-color: #fff;
 	border: 1px solid #ccc;
@@ -45,7 +61,7 @@
 	z-index: 1;
 }
 
-/* Dropdown menu item */
+
 .dropdown_item {
 	width: 300px;
 	height: 40px;
@@ -58,3 +74,4 @@
 .dropdown_item:hover {
 	background-color: #f5f5f5;
 }
+
