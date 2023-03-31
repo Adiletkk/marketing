@@ -4,6 +4,7 @@ import { servicesIncludes } from '../../Contstants/ServicesIncludes.js'
 
 
 const ServiceBlock = () => {
+	
 	return (
 		<div className={styles.main}>
 			<h1 className={styles.main_title}>Service Include</h1>

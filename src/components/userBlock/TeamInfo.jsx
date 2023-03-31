@@ -19,7 +19,7 @@ const TeamInfo = () => {
 		speed: 500,
 		slidesToShow: 2,
 		slidesToScroll: 1,
-		arrows: false,        
+		arrows: false,
 	}
 	return (
 		<div className={styles.main}>
@@ -33,13 +33,13 @@ const TeamInfo = () => {
 
 				<div className={styles.infoBtn}>
 					<button
-					onClick={()=> arrowRef.current.slickPrev()}
-					className={styles.btnColor} >
+						onClick={() => arrowRef.current.slickPrev()}
+						className={styles.btnColor} >
 						<img src={Left} alt="" />
 					</button>
-					<button 
-					onClick={()=> arrowRef.current.slickNext()}
-					className={styles.btnColor} >
+					<button
+						onClick={() => arrowRef.current.slickNext()}
+						className={styles.btnColor} >
 						<img src={Right} alt="" />
 					</button>
 				</div>
@@ -48,33 +48,33 @@ const TeamInfo = () => {
 
 			<div className={styles.card}>
 				<Slider ref={arrowRef} {...settings}>
-				<div className={styles.card_sample}>
-					<div className={styles.cardImg}>
-						<img className={styles.imgBurder} src={Pena} alt="" />
+					<div className={styles.card_sample}>
+						<div className={styles.cardImg}>
+							<img className={styles.imgBurder} src={Pena} alt="" />
 
+						</div>
+						<p className={styles.cardName}>Ralph Edwards</p>
+						<p className={styles.cardProff}>Project Manager</p>
 					</div>
-					<p className={styles.cardName}>Ralph Edwards</p>
-					<p className={styles.cardProff}>Project Manager</p>
-				</div>
-				<div>
-					<div className={styles.cardImg}>
-						<img className={styles.imgBurder} src={Ralph} alt="" />
+					<div>
+						<div className={styles.cardImg}>
+							<img className={styles.imgBurder} src={Ralph} alt="" />
 
+						</div>
+						<p className={styles.cardName}>Marvin McKinney</p>
+						<p className={styles.cardProff}>Full Stack Devolper</p>
 					</div>
-					<p className={styles.cardName}>Marvin McKinney</p>
-					<p className={styles.cardProff}>Full Stack Devolper</p>
-				</div>
 
-				<div>
+					<div>
 
-					<div className={styles.cardImg}>
-						<img className={styles.imgBurder} src={Marvin} alt="" />
+						<div className={styles.cardImg}>
+							<img className={styles.imgBurder} src={Marvin} alt="" />
 
+						</div>
+						<p className={styles.cardName}>Eleanor Pena</p>
+						<p className={styles.cardProff}>UI Designer</p>
 					</div>
-					<p className={styles.cardName}>Eleanor Pena</p>
-					<p className={styles.cardProff}>UI Designer</p>
-				</div>
-</Slider>
+				</Slider>
 
 			</div>
 

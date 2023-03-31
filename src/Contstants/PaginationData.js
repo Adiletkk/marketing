@@ -109,7 +109,7 @@ export const DataImgPagination = [
 		tips: "Reach Your Event"
 	},
 	{
-		id: 12,
+		id: 54,
 		img: img6,
 		subTitle: "SEO",
 		info: "7 Places To Fet Deals On Event",
