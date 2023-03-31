@@ -55,8 +55,8 @@ function Projectbrief() {
             <h1>Gallery</h1>
             <div className={css.imagess}>
               <img src={galerey} alt="" />
-              <img src={galerey2} alt="" />
-              <img src={galerey3} alt="" />
+              <img id={css.foto1} src={galerey2} alt="" />
+              <img id={css.foto2} src={galerey3} alt="" />
             </div>
           </div>
         </div>
