@@ -1,39 +1,42 @@
 .wrapper {
-  display: flex;
-  width: 100%;
-  padding-bottom: 700px;
-  flex-direction: column;
-  font-family: "Barlow", sans-serif; 
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+    flex-direction: column;
+    font-family: "Barlow", sans-serif;
+    overflow: hidden;
+}
+
+.top {
+    display: flex;
+    width: 40%;
+    margin-left: 355px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+    margin-bottom: 80px;
+    color: #637381;
 
 }
-.top {
-  display: flex;
-  width: 40%;
-  margin-left: 355px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  gap: 40px;
-  margin-bottom: 80px;
-  color: #637381;
-  
-}
+
 .bottom {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-  gap: 90px;
-  
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    gap: 90px;
+
 }
-#top_h1{
+
+#top_h1 {
     font-size: 40px;
     color: black;
 }
 
-.left{ 
+.left {
     display: flex;
     flex-direction: column;
     text-align: right;
@@ -42,7 +45,8 @@
     gap: 20px;
     color: #637381;
 }
-.left2{ 
+
+.left2 {
     display: flex;
     flex-direction: column;
     text-align: right;
@@ -52,7 +56,8 @@
     gap: 20px;
     color: #637381;
 }
-.left3{ 
+
+.left3 {
     display: flex;
     flex-direction: column;
     text-align: right;
@@ -62,7 +67,8 @@
     color: #637381;
 
 }
-.right{ 
+
+.right {
     display: flex;
     flex-direction: column;
     text-align: right;
@@ -73,7 +79,8 @@
     color: #637381;
 
 }
-.right2{ 
+
+.right2 {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -84,7 +91,8 @@
     color: #637381;
 
 }
-.right3{
+
+.right3 {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -95,87 +103,94 @@
 
 }
 
-.leftstate{ 
+.leftstate {
     display: flex;
     flex-direction: column;
     gap: 100px;
     width: 50%;
-}
-.rightstate{ 
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    width: 50%;
-}
-#fonts{ 
-    font-size: 20px;
-    color: black;
-    
 }
 
-.right3 h1:before{ 
+.rightstate {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 50%;
+}
+
+#fonts {
+    font-size: 20px;
+    color: black;
+
+}
+
+.right3 h1:before {
     content: '•••';
     color: orange;
     width: 10px;
-	height: 10px;
-	background: orange;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+    height: 10px;
+    background: orange;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
     margin-right: 10px;
 }
-.right h1:before{ 
+
+.right h1:before {
     content: '•••';
     width: 10px;
-	height: 10px;
+    height: 10px;
     color: aqua;
-	background: aqua;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+    background: aqua;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
     margin-right: 10px;
 }
-.right2 h1:before{ 
+
+.right2 h1:before {
     content: '•••';
     width: 10px;
-	height: 10px;
+    height: 10px;
     color: green;
-	background:green;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+    background: green;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
     margin-right: 10px;
 }
-.left2 h1:after{ 
+
+.left2 h1:after {
     content: '•••';
     width: 10px;
-	height: 10px;
+    height: 10px;
     color: green;
-	background:green;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+    background: green;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
     margin-left: 10px;
 }
-.left h1:after{ 
+
+.left h1:after {
     content: '•••';
     width: 10px;
-	height: 10px;
+    height: 10px;
     color: orange;
-	background:orange;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+    background: orange;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
     margin-left: 10px;
 }
-.left3 h1:after{ 
+
+.left3 h1:after {
     content: '•••';
     width: 10px;
-	height: 10px;
+    height: 10px;
     color: aqua;
-	background:aqua;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+    background: aqua;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
     margin-left: 10px;
 }

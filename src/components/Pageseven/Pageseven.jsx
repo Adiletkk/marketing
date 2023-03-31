@@ -21,6 +21,7 @@ import logo6 from "../../foto/microsoft.png";
 import logo7 from "../../foto/airbnb.png";
 import logo8 from "../../foto/trip.png";
 
+
 function Pageseven() {
   return (
     <div className={css.wrapper}>

@@ -1,0 +1,38 @@
+.dropdown {
+	display: flex;
+	flex-direction: column;
+}
+
+.title {
+	font-family: 'Barlow';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 28px;
+	color: #212B36;
+	display: flex;
+	border-bottom: 1px solid rgb(236, 233, 233);
+}
+
+.plus {
+	margin-left: 10px;
+	font-size: 25px;
+	color: #212B36;
+	display: flex;
+	justify-content: flex-end;
+	flex: 1 1;
+}
+
+.text {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	width: 560px;
+	color: #212B36;
+}
+
+.item{
+	border-bottom: 1px solid rgb(206, 204, 204);
+}
