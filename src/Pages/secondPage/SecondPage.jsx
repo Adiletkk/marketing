@@ -1,5 +1,5 @@
 import React from 'react'
-import Benefitsachieved from '../../components/Benefitsachieved/Benefitsachieved'
+// import Benefitsachieved from '../../components/Benefitsachieved/Benefitsachieved'
 import DevCommentsBlock from '../../components/devComemmentsBLock/DevCommentsBlock'
 import Footer from '../../components/footer/Footer'
 import Form from '../../components/formRegist/Form'
@@ -16,7 +16,7 @@ function SecondPage() {
 			<OfflineSeo/>
 			<SeoContent />
 			<ServiceBlock/>
-			<Benefitsachieved/>
+			{/* <Benefitsachieved/> */}
 			<Howitworks/>
 			<DevCommentsBlock/>
 			<Posts/>

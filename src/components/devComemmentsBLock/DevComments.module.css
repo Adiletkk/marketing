@@ -1,13 +1,13 @@
 .main {
-	height: 100vh;
+	margin-top: 80px;
 	width: 100%;
 	background: #F9FAFB;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	
 }
-
 .main_content {
 	height: 50%;
 	width: 70%;

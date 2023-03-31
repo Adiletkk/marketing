@@ -13,7 +13,7 @@ import facebookbtn from "../../foto/facebookbtn.png";
 import linkedinbtn from "../../foto/linkedinbtn.png";
 import faceboock from "../../foto/facebook2.png";
 import instagram from "../../foto/instagram2.png";
-import ins from "../../foto/ins.png";
+import inspng from "../../foto/inspng.png";
 import twitter from "../../foto/twitter2.png";
 
 function Marketingblock() {
@@ -58,7 +58,9 @@ function Marketingblock() {
             metus varius laoreet. Praesent egestas tristique nibh.
           </p>
         </div>
-        <p>Donec posuere vulputate arcu. Quisque rutrum.</p>
+        <p> Donec posuere vulputate arcu. Quisque rutrum. Curabitur vestibulum
+            aliquam leo. Nam commodo suscipit quam. Vestibulum ullamcorper
+            mauris at ligula</p>
         <p>
           Donec posuere vulputate arcu. Quisque rutrum. Curabitur vestibulum
           aliquam leo. Nam commodo suscipit quam. Vestibulum ullamcorper mauris
@@ -69,7 +71,9 @@ function Marketingblock() {
         </p>
       </div>
       <div className={css.text_bottom_center}>
+        <div className={css.image_fonimg}>
         <img src={fonimg} alt="" />
+        </div>
       </div>
       <div className={css.text_bottom_text}>
         <h1>Curabitur suscipit suscipit tellus</h1>
@@ -87,11 +91,12 @@ function Marketingblock() {
       </div>
       <div className={css.text_bottom_dot}>
         <img src={dot} alt="" />
-        <h1>
+        <h3>
           Donec posuere vulputate arcu. Quisque rutrum. Curabitur vestibulum
           aliquam leo.
-        </h1>
+        </h3>
       </div>
+      <div className={css.container}>
       <div className={css.image_bottom}>
         <img src={jub} alt="" />
         <div className={css.image_text_bottom}>
@@ -107,10 +112,9 @@ function Marketingblock() {
             laoreet. Praesent egestas tristique nibh.
           </p>
           <p>
-            Donec posuere vulputate arcu. Quisque rutrum. Curabitur vestibulum
-            aliquam leo. Nam commodo suscipit quam. Vestibulum ullamcorper
-            mauris at ligula
+            
           </p>
+        </div>
         </div>
         <div className={css.last_ikon}>
           <h2 id={css.black}>Tags:</h2>
@@ -150,7 +154,7 @@ function Marketingblock() {
         <div className={css.right_endl}>
           <img src={faceboock} alt="" />
           <img src={instagram} alt="" />
-          <img src={ins} alt="" />
+          <img src={inspng} alt="" />
           <img src={twitter} alt="" />
         </div>
         </div>
