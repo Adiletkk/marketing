@@ -1,17 +1,31 @@
-import React from "react";
+import React, { useRef } from "react";
 import css from "./Projectbrief.module.css";
 import image from "../../foto/photoshop.png";
 import faceboock from "../../foto/facebook2.png";
 import instagram from "../../foto/instagram2.png";
 import ins from "../../foto/ins.png";
 import twitter from "../../foto/twitter2.png";
-import galerey from "../../foto/IMG.png";
-import galerey2 from "../../foto/galerey.png";
-import galerey3 from "../../foto/galerey2.png";
+import { DataImgPagination } from "../../Contstants/PaginationData";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Header from "../../Pages/HeaderPage/Header";
+
 
 function Projectbrief() {
+  const arrowRef = useRef(null)
+  const settings = {
+    className:`${css.slide_box}`,
+    dots: false,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    arrows: false,
+  }
   return (
     <div className={css.wrapper}>
+      <Header/>
       <img src={image} alt="" />
       <div className={css.wrappermain}>
         <div className={css.left}>
@@ -52,11 +66,26 @@ function Projectbrief() {
             <li>President of Sales</li>
           </div>
           <div className={css.images}>
-            <h1>Gallery</h1>
-            <div className={css.imagess}>
-              <img src={galerey} alt="" />
-              <img src={galerey2} alt="" />
-              <img src={galerey3} alt="" />
+        <div className={css.slide_head}>
+              <h1>Gallery</h1>
+              <div className={css.slide_btn}>
+                <button
+                  onClick={() => arrowRef.current.slickPrev()}
+                >&#8592;</button>
+                <button
+                  onClick={() => arrowRef.current.slickNext()}
+                >&#8594;</button>
+              </div>
+        </div>
+            <div >
+              <Slider ref={arrowRef} {...settings}>
+                {DataImgPagination.map((item) => (
+                  <div className={css.card} key={item.id} >
+                    <img className={css.card_img} src={item.img} alt="" />
+                  </div>
+                ))
+                }
+              </Slider>
             </div>
           </div>
         </div>

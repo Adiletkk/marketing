@@ -12,7 +12,7 @@ import ServiceBlock from '../../components/serviceBlock/ServiceBlock'
 
 function SecondPage() {
 	return (
-		<div>\
+		<div>
 			<OfflineSeo/>
 			<SeoContent />
 			<ServiceBlock/>
