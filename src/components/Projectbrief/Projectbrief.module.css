@@ -94,6 +94,54 @@
 .imagess img {
     border-radius: 20px;
 }
+@media (max-width: 900px) {
+    .wrappermain{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .left{ 
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+        align-items: center;
+    }
+    .text_three li{ 
+        margin: 0px;
+    }
+    .right{ 
+
+        gap: 40px;
+        width: 100%;
+        align-items: center;
+    }
+    .end_img{ 
+        gap: 30px;
+        margin-top: -130px;
+    }
+    .imagess{ 
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    #foto1{ 
+        display: none;
+    }
+    #foto2{
+        display: none;
+    }
+    .imagess img{ 
+        width: 300px;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .images h1{ 
+        text-align: center;
+    }
 
 .slide {
     width: 260px;
