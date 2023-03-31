@@ -160,7 +160,7 @@ input:checked[type="checkbox"]::before {
 	list-style-image: url("../images/mark.svg");
 }
 
-li {
+.price_item ul li {
 	margin-bottom: 16px;
 	margin-left: 25px;
 }
