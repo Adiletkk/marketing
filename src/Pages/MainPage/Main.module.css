@@ -21,6 +21,14 @@
     display: flex;
     flex-direction: column;
     max-width: min-content;
+    font-family: "Barlow", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 80px;
+      color: #212b36;
+      margin-top: 24px;
+      margin-bottom: 40px;
   }
   .text{ 
     display: flex;
@@ -29,16 +37,6 @@
   }
 }
 
-.long {
-  font-family: "Barlow", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 80px;
-  color: #212b36;
-  margin-top: 24px;
-  margin-bottom: 40px;
-}
 .colortext {
   font-family: "Poppins", sans-serif;
   font-style: normal;
@@ -109,4 +107,22 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
+}
+
+
+@media (max-width: 900px) {
+  .wrapper{
+    height: auto;
+  }
+.long{
+  font-size: 44px;
+  width: 100%;
+  max-width: none;
+
+}
+.smal{
+  width: 340px;
+  font-size: 14px;
+}
+
 }

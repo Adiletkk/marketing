@@ -211,3 +211,128 @@
 .content_info2 {
     align-items: end;
 }
+.bot_bot{
+    display: flex;
+}
+
+@media screen and (max-width: 375px) {
+    .bot_left{
+        display: none;
+    }
+    .top{
+        width: 100%;
+    }
+    .top_title{
+        font-size: 28px;
+    }
+    .top_text{
+        font-size: 13px;
+    }
+    .content_info4{
+        margin: 0;
+    }
+    .bottom{
+        display: none;
+    }
+    .mob_bot{
+        width: 100%;
+    }
+    .content_info3{
+        margin: 0;
+    }
+    .border{
+        border-left: rgb(59, 58, 58) solid 1px;
+    height: 750px;
+    margin-left: 20px;
+    padding: 16px;
+    display: flex;
+      flex-direction: column;
+        gap: 50px;
+        width: 100%;
+    }
+    .content_infow span:before {
+    position: absolute;
+    content: "\00B7";
+    color: #22B8CF;;
+    font-size: 70px;
+    left: -26px;
+    top: -7px;
+    height: 30px;
+    width: 14px;
+    background-color: #161c24;
+    line-height: 27px;
+}
+.content_infow h5 {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.content_infow span {
+    color: #22B8CF;;
+    position: relative;
+}
+.content_infow {
+    width: 350px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content_infow p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.72;
+}
+   .content_info3w span:before {
+    position: absolute;
+    content: "\00B7";
+    color: #0CD66E;;
+    font-size: 70px;
+    left: -26px;
+    top: -7px;
+    height: 30px;
+    width: 14px;
+    background-color: #161c24;
+    line-height: 27px;
+}
+.content_info3w h5 {
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.content_info3w span {
+    color: #0CD66E;;
+    position: relative;
+}
+.content_info3w {
+    width: 360px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content_info3w p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+    opacity: 0.72;
+}
+.content_info1, .content_info3w, .content_info3, .content_info3w{
+    width: 330px;
+}
+}

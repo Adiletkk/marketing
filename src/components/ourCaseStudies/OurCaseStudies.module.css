@@ -136,3 +136,52 @@ border-bottom: #FA541C solid 2px;
 	line-height: 10px;
 	text-align: center;
 }
+
+.mob_nav{
+	display: none;
+}
+
+@media screen and (max-width: 375px) {
+.content{
+	padding: 0 22px;
+	height: auto;
+}
+.content_head{
+	width: 100%;
+}
+.content_head h1{
+	font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+text-align: center;
+}
+.content_head p{
+	font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+}
+.navbar{
+	display: none;
+}
+.mob_nav{
+	width: 90%;
+	display: flex;
+	gap: 30px;
+	height: 15vh;
+	align-items: center;
+	color: #637381;
+	font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 26px;
+color: #637381;
+}
+
+.main{
+	grid-template-columns: 1fr;
+	height: auto;
+}
+
+}

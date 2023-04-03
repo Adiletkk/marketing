@@ -17,7 +17,7 @@ function DropDown({ options, defaultOption, onSelect }) {
 	return (
 		<div className={styles.dropdown}>
 			<div className={styles.title} onClick={() => setIsOpen(!isOpen)}>
-				<div>{selectedOption} </div> <div className={styles.plus}>{isOpen?'-':'+'}</div>
+				<div className={styles.subTitle}>{selectedOption} </div> <div className={styles.plus}>{isOpen?'-':'+'}</div>
 				<i className={`fas fa-chevron-${isOpen ? 'up' : 'down'}`}></i>
 				
 			</div>

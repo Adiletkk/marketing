@@ -4,7 +4,7 @@ import logo from "../../foto/Logo.png";
 import planet from "../../foto/planet.png";
 import search from "../../foto/iconbase.png";
 import { NavLink } from "react-router-dom";
-import burger from '../../foto/icon/icons8-menu-32.png'
+import burger from '../../components/images/BlogCard/burger.png'
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);

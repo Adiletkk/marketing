@@ -25,7 +25,7 @@ const Faqs = () => {
 
 
 			</section>
-			<section>
+			<section className={styles.faqs_img}>
 				<img src={Faqss} alt="" />
 			</section>
 		</div>

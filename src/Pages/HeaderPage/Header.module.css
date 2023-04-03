@@ -1,5 +1,5 @@
 .wrapper {
-    margin-top: 20px;
+    padding-top: 20px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -152,7 +152,7 @@
 @media screen and (max-width: 400px) {
     .wrapper {
         padding: 0 20px;
-        width: 86%;
+        width: 100%;
     }
 
     .mob_head {
@@ -176,12 +176,15 @@
         gap: 15px;
         min-height: fit-content;
     }
-
+.burger button{
+border: none;
+background-color: white;
+}
     .modal_content {
         position: absolute;
         height: 100%;
-        bottom: -59px;
-        left: 55px;
+            bottom: 0px;
+                left: 362px;
         z-index: 100;
     }
 

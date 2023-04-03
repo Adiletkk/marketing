@@ -1,196 +1,300 @@
 .wrapper {
-    display: flex;
-    width: 100%;
-    padding-bottom: 20px;
-    flex-direction: column;
-    font-family: "Barlow", sans-serif;
-    overflow: hidden;
+  display: flex;
+  width: 100%;
+  padding-bottom: 20px;
+  flex-direction: column;
+  font-family: "Barlow", sans-serif;
+  overflow: hidden;
 }
 
 .top {
-    display: flex;
-    width: 40%;
-    margin-left: 355px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    gap: 40px;
-    margin-bottom: 80px;
-    color: #637381;
-
+  display: flex;
+  width: 40%;
+  margin-left: 355px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+  margin-bottom: 80px;
+  color: #637381;
 }
 
 .bottom {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    height: 100%;
-    gap: 90px;
-
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  gap: 90px;
 }
 
 #top_h1 {
-    font-size: 40px;
-    color: black;
+  font-size: 40px;
+  color: black;
 }
 
 .left {
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    width: 100%;
-    font-size: 14px;
-    gap: 20px;
-    color: #637381;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  width: 100%;
+  font-size: 14px;
+  gap: 20px;
+  color: #637381;
+  position: relative;
 }
 
 .left2 {
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    width: 100%;
-    font-size: 14px;
-    margin-left: -90px;
-    gap: 20px;
-    color: #637381;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  width: 100%;
+  font-size: 14px;
+  margin-left: -90px;
+  gap: 20px;
+  color: #637381;
+  position: relative;
 }
 
 .left3 {
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    width: 100%;
-    font-size: 14px;
-    gap: 20px;
-    color: #637381;
-
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  width: 100%;
+  font-size: 14px;
+  gap: 20px;
+  color: #637381;
+  position: relative;
 }
 
 .right {
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-    width: 100%;
-    font-size: 14px;
-    margin-left: -90px;
-    gap: 20px;
-    color: #637381;
-
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  width: 100%;
+  font-size: 14px;
+  margin-left: -90px;
+  gap: 20px;
+  color: #637381;
+  position: relative;
 }
 
 .right2 {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    width: 100%;
-    font-size: 14px;
-    gap: 20px;
-    margin-left: 90px;
-    color: #637381;
-
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  gap: 20px;
+  margin-left: 90px;
+  color: #637381;
+  position: relative;
 }
 
 .right3 {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    width: 100%;
-    font-size: 14px;
-    gap: 20px;
-    color: #637381;
-
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  gap: 20px;
+  color: #637381;
+  position: relative;
 }
 
 .leftstate {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  width: 50%;
 }
 
 .rightstate {
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  width: 50%;
 }
 
 #fonts {
-    font-size: 20px;
-    color: black;
-
+  font-size: 20px;
+  color: black;
+}
+#fonts1 {
+  font-size: 20px;
+  color: black;
 }
 
 .right3 h1:before {
-    content: '•••';
-    color: orange;
-    width: 10px;
-    height: 10px;
-    background: orange;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    margin-right: 10px;
+  content: "•";
+  color: orange;
+  font-size: 60px;
+  position: absolute;
+  left: -43px;
+  top: -2px;
 }
 
 .right h1:before {
-    content: '•••';
-    width: 10px;
-    height: 10px;
-    color: aqua;
-    background: aqua;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    margin-right: 10px;
+  content: "•";
+  color: aqua;
+  font-size: 60px;
+  position: absolute;
+  left: 127px;
+  top: -2px;
 }
 
 .right2 h1:before {
-    content: '•••';
-    width: 10px;
-    height: 10px;
-    color: green;
-    background: green;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    margin-right: 10px;
+  content: "•";
+  height: 10px;
+  font-size: 60px;
+  position: absolute;
+  left: -43px;
+  top: -2px;
 }
 
 .left2 h1:after {
-    content: '•••';
-    width: 10px;
-    height: 10px;
-    color: green;
-    background: green;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    margin-left: 10px;
+  content: "•";
+  color: green;
+  font-size: 60px;
+  position: absolute;
+  top: -2px;
+  right: -47px;
 }
 
 .left h1:after {
-    content: '•••';
-    width: 10px;
-    height: 10px;
-    color: orange;
-    background: orange;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    margin-left: 10px;
+  content: "•";
+  color: orange;
+  font-size: 60px;
+  position: absolute;
+  top: -2px;
+  right: -47px;
 }
 
 .left3 h1:after {
-    content: '•••';
-    width: 10px;
-    height: 10px;
-    color: aqua;
-    background: aqua;
-    -moz-border-radius: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
-    margin-left: 10px;
+  content: "•";
+  color: aqua;
+  font-size: 60px;
+  position: absolute;
+  top: -2px;
+  right: -47px;
+}
+.mobbot {
+  display: none;
+}
+@media screen and (max-width: 375px) {
+  .wrapper {
+    padding: 0 22px;
+  }
+  .top {
+    width: 100%;
+    margin: 0 auto;
+    height: 340px;
+  }
+  .bottom {
+    display: none;
+  }
+  .mobbot {
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+    height: 950px;
+    margin-left: 50px;
+  }
+  .fonts1 {
+    font-size: 18px;
+  }
+  .right3 h1:before {
+  content: "•";
+  color: orange;
+  font-size: 60px;
+  position: absolute;
+  left: -43px;
+  top: -23px;
+}
+.right3 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  gap: 20px;
+  color: #637381;
+  position: relative;
+}
+
+.rightq{
+    
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  gap: 20px;
+  color: #637381;
+  position: relative;
+}
+  .rightq h1:before {
+  content: "•";
+  color: #FA541C;
+  font-size: 60px;
+  position: absolute;
+  left: -43px;
+  top: -23px;
+}
+.rightw{
+      display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  gap: 20px;
+  color: #637381;
+  position: relative;
+}
+  .rightw h1:before {
+  content: "•";
+  color: #0CD66E;
+  font-size: 60px;
+  position: absolute;
+  left: -43px;
+  top: -23px;
+}
+.righte{
+        display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  gap: 20px;
+  color: #637381;
+  position: relative;
+}
+  .righte h1:before {
+  content: "•";
+  color: #22B8CF ;
+  font-size: 60px;
+  position: absolute;
+  left: -43px;
+  top: -23px;
+}
+.rightr{
+         display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+  font-size: 14px;
+  gap: 20px;
+  color: #637381;
+  position: relative;
+}
+  .rightr h1:before {
+  content: "•";
+  color: #22B8CF ;
+  font-size: 60px;
+  position: absolute;
+  left: -43px;
+  top: -23px;
+}
+
 }
