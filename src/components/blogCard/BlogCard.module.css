@@ -281,6 +281,7 @@
 	.main{
 		padding: 0 22px;
 		flex-direction: column;
+		margin-bottom: 100px;
 	}
 	.blog_slider{
 		width: 100%;
