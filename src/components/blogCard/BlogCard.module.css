@@ -107,7 +107,7 @@
 	margin-bottom: 16px;
 }
 
-.side_head input {
+.inp{
 	background-image: url('../images/BlogCard/search.png');
 	background-repeat: no-repeat;
 	/*Убираем повтор изображения*/
@@ -275,4 +275,22 @@
 	height: 30px;
 	line-height: 10px;
 	text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+	.main{
+		padding: 0 22px;
+		flex-direction: column;
+	}
+	.blog_slider{
+		width: 100%;
+	}
+	.inp{
+		display: none;
+	}
+	.inp11{
+		display: flex;
+		height: 60px;	
+		width: 100%;
+	}
 }

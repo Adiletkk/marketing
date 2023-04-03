@@ -14,10 +14,10 @@ function ImagePage() {
       <div className={css.brand_list}>
         <img src={brand} alt="" />
         <img src={brand2} alt="" />
-        <img src={brand3} alt="" />
-        <img src={brand4} alt="" />
-        <img src={brand5} alt="" />
-        <img src={brand6} alt="" />
+        <img className={css.mob} src={brand3} alt="" />
+        <img className={css.mob} src={brand4} alt="" />
+        <img className={css.mob} src={brand5} alt="" />
+        <img className={css.mob} src={brand6} alt="" />
       </div>
       <div className={css.wrap_img}>
 

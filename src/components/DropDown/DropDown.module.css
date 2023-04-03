@@ -13,10 +13,18 @@
 	display: flex;
 	border-bottom: 1px solid rgb(236, 233, 233);
 }
+.subTitle{
+	font-family: 'Barlow';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 28px;
+color: #212B36;
+}
 
 .plus {
 	margin-left: 10px;
-	font-size: 25px;
+	font-size: 32px;
 	color: #212B36;
 	display: flex;
 	justify-content: flex-end;
@@ -35,4 +43,15 @@
 
 .item{
 	border-bottom: 1px solid rgb(206, 204, 204);
+}
+
+@media screen and (max-width: 375px) {
+	.text{
+		font-size: 14px;
+		width: 320px;
+	}
+	.subTitle{
+		font-size: 18px;
+		width: 300px;
+	}
 }

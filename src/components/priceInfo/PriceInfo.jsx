@@ -10,7 +10,7 @@ const PriceInfo = () => {
 	return (
 		<div className={styles.price_page}>
 			<section className={styles.head}>
-				<div>
+				<div className={styles.head_title}>
 					<p className={styles.subTitle}>PRICING</p>
 					<h1>Check Our Pricing</h1>
 					<p className={styles.title_text}>

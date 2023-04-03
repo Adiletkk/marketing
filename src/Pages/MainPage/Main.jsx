@@ -10,7 +10,7 @@ function Main() {
     <div className={css.wrapper}>
       <div className={css.text}>
         <div className={css.colortext}>Digital Marketing</div>
-        <div className={css.long}>Boosts Your <br />Website Traffic</div>
+        <div className={css.long}>Boosts Your Website Traffic</div>
         <div className={css.smal}>Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus
           ipsum laoreet sapien, quis venenatis ante odio sit amet eros. </div>
         <div className={css.endl}>

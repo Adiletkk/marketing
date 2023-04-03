@@ -9,7 +9,7 @@ const About = () => {
 	return (
 		<div>
 			<Header/>
-			<Pageseven/>
+			{/*<Pageseven/>*/}
 			<Form/>
 			<Footer/>
 		</div>

@@ -5,7 +5,6 @@
 	align-items: flex-start;
 	padding: 120px 74px;
 	width: 100%;
-	height: 135vh;
 	background: #FFFFFF;
 	gap: 15px;
 }
@@ -207,4 +206,31 @@ input:checked[type="checkbox"]::before {
 	line-height: 30px;
 	text-align: right;
 	color: #919EAB;
+}
+
+@media screen and (max-width: 375px) {
+	.price_page{
+		padding: 0 22px;
+	}
+	.head{
+		flex-direction: column;
+		height: 40vh;
+		justify-content: center;
+	}
+	.price_list{
+		flex-direction: column;
+		gap: 50px;
+	}
+	.head_title{
+		height: 30vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	.head_title{
+		text-align: center;
+	}
+	.subTitle{
+		justify-content: center;
+	}
 }

@@ -1,9 +1,11 @@
 import React from "react";
 import css from "./MoreCard.module.css";
-
-
-
-
+import card1 from '../images/BlogCard/card1.png'
+import card2 from '../images/BlogCard/card2.png'
+import card3 from '../images/BlogCard/card3.png'
+import card4 from '../images/BlogCard/card4.png'
+import card5 from '../images/BlogCard/card5.png'
+import card6 from '../images/BlogCard/card6.png'
 
 
 
@@ -12,6 +14,11 @@ import css from "./MoreCard.module.css";
 
 function MoreCard() {
   return (
+    <>
+      <div className={css.header}>
+        <h5 className={css.subTitle}>Our work</h5>
+        <h1 className={css.title}>Case Studies</h1>
+      </div>
     <div className={css.main}>
 
       <section className={css.main_left}>
@@ -97,9 +104,17 @@ function MoreCard() {
         </div>
 
       </section>
-
+<div className={css.mob_card}>
+  <img src={card1} alt="" />
+  <img src={card2} alt="" />
+  <img src={card3} alt="" />
+  <img src={card4} alt="" />
+  <img src={card5} alt="" />
+  <img src={card6} alt="" />
+</div>
 
     </div>
+    </>
   );
 }
 
