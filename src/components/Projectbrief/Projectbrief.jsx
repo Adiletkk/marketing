@@ -65,12 +65,12 @@ function Projectbrief() {
             <li>Nursing Assistant</li>
             <li>President of Sales</li>
           </div>
-          <div className={css.images}>
+          {/* <div className={css.images}>
             <h1>Gallery</h1>
             <div className={css.imagess}>
               <img src={galerey} alt="" />
               <img id={css.foto1} src={galerey2} alt="" />
-              <img id={css.foto2} src={galerey3} alt="" />
+              <img id={css.foto2} src={galerey3} alt="" /> */}
         <div className={css.slide_head}>
               <h1>Gallery</h1>
               <div className={css.slide_btn}>
@@ -94,7 +94,6 @@ function Projectbrief() {
 
             </div>
           </div>
-        </div>
         <div className={css.right}>
           <div className={css.ikon}>
             <p id={css.text_color}>summary</p>
@@ -118,8 +117,10 @@ function Projectbrief() {
             <img src={twitter} alt="" />
           </div>
         </div>
+        </div>
+
       </div>
-    </div>
+    // </div>
   );
 }
 

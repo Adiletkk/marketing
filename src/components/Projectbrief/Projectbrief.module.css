@@ -6,8 +6,8 @@
 
 .wrappermain {
     display: flex;
-    justify-content: space-between;
     width: 100%;
+    justify-content: space-between;
     padding: 0px 144px;
 }
 
@@ -53,11 +53,8 @@
     width: 342px;
     height: 700px;
     gap: 30px;
-
     background: #F9FAFB;
     border-radius: 20px;
-
-
 }
 
 #text_color {
@@ -223,4 +220,5 @@
     font-size: 16px;
     line-height: 30px;
     color: #212B36;
+}
 }
